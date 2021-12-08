@@ -5,12 +5,10 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 Get latest code"
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
 
       - name: 📂 Sync files
-      - run: echo "🎉 Get latest code"
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: soloschenko.com
