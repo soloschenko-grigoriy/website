@@ -14,4 +14,4 @@ jobs:
           server: soloschenko.com
           username: gregsolo_ftp
           password: ${{ secrets.GREGSOLO_FTP_PASS }}
-          local-dir: www
+          local-dir: www/
