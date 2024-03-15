@@ -11,7 +11,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          server: soloschenko.com
+          server: gregsolo.me
           username: gregsolo_ftp
           password: ${{ secrets.GREGSOLO_FTP_PASS }}
           local-dir: www/
